@@ -8,7 +8,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(900, 600);
+  createCanvas(windowWidth, windowHeight);
   background(20);
   noFill();
   frameRate(60);
